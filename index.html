@@ -239,7 +239,7 @@ input{font:inherit;color:inherit;background:none;border:none;outline:none}
 .route-toolbar > *{pointer-events:auto}
 .rt-btn{
   display:inline-flex;align-items:center;gap:8px;
-  padding:10px 14px;border-radius:var(--radius-pill);
+    padding:7px 10px;border-radius:11px;
   background:var(--glass);border:1px solid var(--glass-edge);
   color:var(--text);font-weight:700;font-size:0.86rem;
   -webkit-backdrop-filter:var(--blur);backdrop-filter:var(--blur);
@@ -628,10 +628,7 @@ input{font:inherit;color:inherit;background:none;border:none;outline:none}
         <svg viewBox="0 0 24 24"><path d="M3 3h7v7H3z"/><path d="M14 3h7v7h-7z"/><path d="M14 14h7v7h-7z"/><path d="M3 14h7v7H3z"/></svg>
         Hele route
       </button>
-      <button class="rt-btn gps" id="gpsBtn" onclick="toggleGps()" title="GPS volgen aan/uit">
-        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
-        GPS
-      </button>
+      <!-- GPS-knop verwijderd -->
     </div>
 
     <div class="sheet" id="sheet" style="--sheet-h:240px">
